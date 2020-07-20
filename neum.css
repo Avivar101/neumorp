@@ -1,0 +1,43 @@
+body {
+    align-items: center;
+    background-color: #afd275;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    /*background: linear-gradient(-45deg, rgba(0, 0, 0, 0.22),
+                    rgba(255,255,255,0.25));*/
+    height: 100px;
+    width: 250px;
+    border-radius: 35px;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.55),
+                -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.22),
+                    rgba(255,255,255,0.25));
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.55),
+                -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.7s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+}
+
+.btn:active {
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.55) inset,
+                -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
+}
